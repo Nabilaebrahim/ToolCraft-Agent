@@ -17,6 +17,9 @@ Traditional Large Language Models (LLMs) often hallucinate factual details or la
 
 ## 🏗️ Architecture & Core Concepts
 
+<img width="550" height="540" alt="k" src="https://github.com/user-attachments/assets/83d056b6-a6be-4b96-ae7d-7f0c74a98f6a" />
+
+
 The workflow is constructed as a state machine using **LangGraph**:
 
 
@@ -106,6 +109,10 @@ groq_api_key = userdata.get("GROQ_API_KEY")
 - [x] Configured secure credential access in Google Colab with `userdata.get("GROQ_API_KEY")`.
 - [x] Implemented conditional branching logic (`tools_condition`) for autonomous tool selection.
 - [x] Validated execution: tested general conversational queries (no tools invoked) and factual queries like *"what is RLHF."* (Wikipedia tool invoked and synthesized successfully).
+
+<img width="3200" height="1798" alt="kkk" src="https://github.com/user-attachments/assets/51180529-7184-443f-928f-258ff8a7dbaa" />
+<img width="3190" height="1848" alt="kk" src="https://github.com/user-attachments/assets/002dd649-0c12-4442-a87d-b4af28d48a73" />
+
 
 ---
 
